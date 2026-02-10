@@ -22,3 +22,43 @@ function remainder(x, y) {
   return x % y;
 }
 console.log(remainder(2, 5));
+
+// 4.Given an n-sided regular polygon n, return the total sum of internal angles (in degrees).
+function sumPolygon(n) {
+  return (n - 2) * 180;
+}
+console.log(sumPolygon(3));
+console.log(sumPolygon(4));
+console.log(sumPolygon(6));
+// 5.Write a function that returns the string "something" joined with a space " " and the given argument a.
+function giveMeSomething(a) {
+  return "something " + a;
+}
+console.log(giveMeSomething("HI"));
+// 6.Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+function lessThanOrEqualToZero(num) {
+  if (num <= 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(lessThanOrEqualToZero(-9));
+console.log(lessThanOrEqualToZero(0));
+console.log(lessThanOrEqualToZero(3));
+// 7.Create a function that takes the age in years and returns the age in days.
+function calcAge(age) {
+  return age * 365;
+}
+console.log(calcAge(5));
+
+// Write a function that prints all factors∗ of Nin increasing order.
+function factors(n) {
+  let result = [];
+  for (let i = 1; i <= n; i++) {
+    if (n % i === 0) {
+      result.push(i);
+    }
+  }
+  return result;
+}
