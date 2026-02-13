@@ -159,14 +159,14 @@
 
 //  console.log(char)
 
-5Count how many even numbers
-const numbers = [1, 2, 3, 4, 5, 6];
-const evenCount = numbers.reduce((count, number) => {
-  if (number % 2 === 0) {
-    return count + 1;
-  }
-  return count;
-}, 0);
+// 5Count how many even numbers
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const evenCount = numbers.reduce((count, number) => {
+//   if (number % 2 === 0) {
+//     return count + 1;
+//   }
+//   return count;
+// }, 0);
 console.log(evenCount);
 // const numbers = [1, 2, 3, 4, 6, 7];
 
@@ -179,7 +179,7 @@ console.log(evenCount);
 
 // console.log(Evennum);
 
-// console.log(Evennum);
-// const numbers = [1, 2, 3, 4, 6, 7];
-// const evenNumbers = numbers.filter(num => num % 2 === 0);
-// console.log(evenNumbers);
+console.log(Evennum);
+const numbers = [1, 2, 3, 4, 6, 7];
+const evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers);
